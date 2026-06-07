@@ -6,8 +6,6 @@ on:
     paths:
       - "upscayl/**"
       - ".github/workflows/ci-upscayl.yml"
-  schedule:
-    - cron: "0 3 * * 0"
   workflow_dispatch:
     inputs:
       kasm_version:
